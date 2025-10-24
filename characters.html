@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TYK - Characters</title>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Welcome to the official TYK game website. Find news, characters, and marketplace info.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+</head>
+<body>
+    <header class="header-container">
+        <div>
+        <img src="assets/img/logo.png" alt="LOGO" style="width: 80px; height:80px;">
+        <h1 style="font-size: 38px;" >TYK</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="characters.html">Characters</a>
+            <a href="market.html">Marketplace</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="login.html" class="button-play">Play Game</a>
+    </header>
+
+    <main style="flex-grow: 1;">
+        <section class="character-page-intro">
+            <h2>Meet the Characters</h2>
+            <p>Select a character from the list to see their details.</p>
+        </section>
+
+        <div class="character-layout">
+            
+            <aside class="character-list">
+                <h3>Character List</h3>
+                <button class="char-select-btn" data-char="ignis">Ignis</button>
+                <button class="char-select-btn" data-char="cannon">Cannon Master</button>
+                <button class="char-select-btn" data-char="aqua">Aqua</button>
+            </aside>
+            
+            <section class="character-profile" id="profile-display">
+                
+                <img src="https://via.placeholder.com/400x400.png?text=Select+a+Character" alt="Character Profile" id="profile-img">
+                <h2 id="profile-name">Character Name</h2>
+                
+                <label for="profile-difficulty">Difficulty:</label>
+                <meter id="profile-difficulty" value="0" min="0" max="10"></meter>
+                
+                <p id="profile-bio">Character bio and information will appear here when you select a character from the list.</p>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 TYK. All Rights Reserved.</p>
+        <p class="footer-links"><a href="credits.html">Image Credits & Policy</a></p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

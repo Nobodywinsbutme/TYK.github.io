@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TYK - Register</title>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Welcome to the official TYK game website. Find news, characters, and marketplace info.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+</head>
+<body class="auth-page"> <div class="auth-container">
+        <form action="#" method="POST" class="auth-form">
+
+            <div class="auth-logo">
+                <img src="assets/img/logo.png" alt="TYK Logo" style="width: 80px; height:80px;">
+                <h1>TYK</h1>
+            </div>
+            
+            <h2>Create Account</h2>
+            
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="user_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="user_email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="user_pass" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm_pass" required>
+            </div>
+            
+            <button type="submit" class="button">Register</button>
+            
+            <p class="auth-switch">
+                Already have an account? <a href="login.html">Login here</a>
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>
